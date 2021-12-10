@@ -10,7 +10,7 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Document
+@Document(collection = "calendar")
 public class Program {
 
     @Id
